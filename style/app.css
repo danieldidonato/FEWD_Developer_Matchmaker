@@ -1,6 +1,6 @@
 .navbar {
 	top: 0;
-	width: 97%;
+	width: 98%;
 	background-color: black;
 	list-style-type: none;
 	overflow: hidden;
@@ -33,7 +33,7 @@ li a{
 .two-brains{
 	padding: 25px;
 	margin: 0;
-	width: 100%;
+	width: 97.3%;
 	background-color: #ccc;
 	font-size: 25px;
 	font-family: Merriweather;
@@ -50,17 +50,25 @@ li a{
 	text-decoration-color: yellow;
 }
 
-.picture{
-	background-image: url("images/coworking.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	overflow: hidden;
+img{
+	 width: 100%;
 }
 
 .container{
 	display: flex;
+	
+}
+
+
+.image_text{
+	background: url(images/coworking.jpg);
+	font: 20px Sans-Serif;
+	border: solid black 1px;
+	width: 33%;
+	padding: 4%;
+	background-color: white;
+	justify-content: flex-end;
+	float: right;
 }
 
 .col{

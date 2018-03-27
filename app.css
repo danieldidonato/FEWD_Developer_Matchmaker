@@ -1,0 +1,110 @@
+.navbar {
+	top: 0;
+	width: 98%;
+	background-color: black;
+	list-style-type: none;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: solid yellow 10px;
+	margin: 0;
+	
+}
+
+.page_title{
+	color: yellow;
+	font-family: Merriweather;
+	font-size: 40px;
+}
+
+
+li {
+	float: right;
+	display: inline-flex;
+}
+
+li a{
+	color: white;
+	padding: 14px 16px;
+	font-family: Oswald;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.two-brains{
+	padding: 25px;
+	margin: 0;
+	width: 97.3%;
+	background-color: #ccc;
+	font-size: 25px;
+	font-family: Merriweather;
+	text-align: center;
+}
+
+.taste{
+	color: #999;
+	text-decoration: line-through;
+}
+
+.are{
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+img{
+	 width: 100%;
+}
+
+.container{
+	display: flex;
+	
+}
+
+
+.image_text{
+	background: url(images/coworking.jpg);
+	font: 20px Sans-Serif;
+	border: solid black 1px;
+	width: 33%;
+	padding: 4%;
+	background-color: white;
+	justify-content: flex-end;
+	float: right;
+}
+
+.col{
+	border-right: solid #ccc 1px;
+	height: 200px;
+	width: 35%;
+	margin: 10px;
+}
+
+.col-middle{
+	border-right: solid #ccc 1px;
+	height: 200px;
+	width: 35%;
+	margin: 10px;
+}
+.col:last-child{
+	border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar:last-child{
+	color: white;
+	border-bottom: none;
+	margin: 0;
+	padding: 25px;
+	font-size: 19px;
+
+}
